@@ -4,7 +4,6 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
 
-
         System.out.println("Hello World");
         
         Rectangle rect1 = new Rectangle(4.6, 9.4);
@@ -12,5 +11,7 @@ public class Main {
         System.out.println(rect1);
 
         System.out.println("The rectangle has an area of: " + rect1.calcArea());
+
+        System.out.println("The rectangle has a perimeter of: " + rect1.calcPerimeter());
     }
 }
