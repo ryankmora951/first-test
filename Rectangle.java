@@ -21,6 +21,10 @@ public class Rectangle {
         return length * width;
     }
 
+    public double calcPerimeter() {
+        return 2 * (length + width);
+    }
+
     public String toString() {
         return "My rectangle has a length " + length + " and a width of " + width + ".";
     }
