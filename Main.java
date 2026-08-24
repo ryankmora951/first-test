@@ -4,9 +4,17 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
 
+        System.out.println("What should the rectangle length be? ");
+        double l = input.nextDouble();
+        input.nextLine();
+
+        System.out.println("What should the rectangle width be? ");
+        double w = input.nextDouble();
+        input.close();
+
         System.out.println("Hello World");
         
-        Rectangle rect1 = new Rectangle(4.6, 9.4);
+        Rectangle rect1 = new Rectangle(l, w);
         
         System.out.println(rect1);
 
