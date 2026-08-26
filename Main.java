@@ -10,7 +10,7 @@ public class Main {
 
         System.out.println("What should the rectangle width be? ");
         double w = input.nextDouble();
-        input.close();
+        input.nextLine();
 
         System.out.println("Hello World");
         
@@ -21,5 +21,8 @@ public class Main {
         System.out.println("The rectangle has an area of: " + rect1.calcArea());
 
         System.out.println("The rectangle has a perimeter of: " + rect1.calcPerimeter());
+
+        input.close();
+
     }
 }
